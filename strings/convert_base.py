@@ -9,15 +9,23 @@ since 6x7^2 + 1x7 + 5 = 1x13^2 + 10x13 + 7)
 """
 
 
+"""
+Learning:
+We can use a string to convert hexadecimal symbols. 
+"""
+
+
 def convert_num_string_to_int(num_as_string: str, base: int):
     num_as_integer = 0
     symbols_map = {chr(ord('0') + i): i for i in range(10)}
     symbols_map.update({chr(ord('A') + i - 10): i for i in range(10, 16)})
     hex_digits = '0123456789ABCDEF'  # string.hexdigits is a constant = '0123456789abcdefABCDEF'
+#   ``````````````````````````````
 
     for i in range(len(num_as_string)):
         num_as_integer = num_as_integer * base + symbols_map[num_as_string[i]]
         # num_as_integer = num_as_integer * base + hex_digits.index(num_as_string[i])
+#       ````````````````````````````````````````````````````````````````````````````
 
     return num_as_integer
 
@@ -26,9 +34,13 @@ def convert_to_base(num: int, base: int):
     num_in_base = []
     symbols_map = {i: chr(ord('0') + i) for i in range(10)}
     symbols_map.update({i: chr(ord('A') + i - 10) for i in range(10, 16)})
+    hex_digits = '0123456789ABCDEF'  # string.hexdigits is a constant = '0123456789abcdefABCDEF'
+#   ```````````````````````````````
 
     while True:
-        num_in_base.append(symbols_map[num % base])
+        # num_in_base.append(symbols_map[num % base])
+        num_in_base.append(hex_digits[num % base])
+#       ``````````````````````````````````````````
         num = num // base
         if num == 0:
             break
