@@ -1,5 +1,5 @@
-from test_framework import generic_test
-from test_framework.test_failure import TestFailure
+from epi_judge_python.test_framework import generic_test
+from epi_judge_python.test_framework.test_failure import TestFailure
 
 """
 Implement an integer to string conversion function, and a string to integer conversison function, 
