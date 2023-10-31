@@ -1,6 +1,16 @@
 from test_framework import generic_test
 
 
+"""
+For the purpose of this problem, define a palindromic string to be a string which when all the nonalphanumeric 
+are removed it reads the same front to back ignoring case. 
+For example, "A man, a plan, a canal, Panama." and "Able was I, ere I saw Elba!" are palindromic, 
+but "Ray a Ray" is not.
+
+Implement a function which takes as input a string s and retuns true if s is a palindromic string.
+"""
+
+
 def is_palindrome(s: str) -> bool:
     forward_index = 0
     back_index = len(s) - 1
