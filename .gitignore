@@ -76,7 +76,6 @@ is_number_palindromic.py
 is_string_decomposable_into_words.py
 is_string_in_matrix.py
 is_string_palindromic.py
-is_string_palindromic_punctuation.py
 is_string_permutable_to_palindrome.py
 is_tree_a_bst.py
 is_tree_balanced.py
