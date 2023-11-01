@@ -102,7 +102,6 @@ longest_nondecreasing_subsequence.py
 longest_subarray_with_distinct_values.py
 longest_subarray_with_sum_constraint.py
 longest_substring_with_matching_parentheses.py
-look_and_say.py
 lowest_common_ancestor.py
 lowest_common_ancestor_close_ancestor.py
 lowest_common_ancestor_in_bst.py
