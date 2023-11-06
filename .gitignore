@@ -162,7 +162,6 @@ remove_duplicates.py
 remove_duplicates_from_sorted_list.py
 reverse_bits.py
 reverse_digits.py
-reverse_sublist.py
 road_network.py
 rook_attack.py
 rotate_array.py
