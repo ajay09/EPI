@@ -70,7 +70,6 @@ intervals_union.py
 is_anonymous_letter_constructible.py
 is_array_dominated.py
 is_circuit_wirable.py
-is_list_cyclic.py
 is_list_palindromic.py
 is_number_palindromic.py
 is_string_decomposable_into_words.py

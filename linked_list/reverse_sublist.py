@@ -7,24 +7,21 @@ from test_framework import generic_test
 def reverse_sublist(L: ListNode, start: int, finish: int) -> Optional[ListNode]:
     if L is None or start == finish:
         return L
-    dummy_head = ListNode(next=L)
 
-    node_before_start = dummy_head
+    sublist_head = dummy_head = ListNode(next=L)
     for i in range(1, start):
-        node_before_start = node_before_start.next
+        sublist_head = sublist_head.next
 
-    start_node = node_before_start.next
-    prev_node = start_node
-    curr_node = start_node.next
-    while start < finish and curr_node:
+    prev_node = sublist_head.next
+    curr_node = prev_node.next
+    for _ in range(finish - start):
         next_ref = curr_node.next
         curr_node.next = prev_node
         prev_node = curr_node
         curr_node = next_ref
-        start += 1
 
-    start_node.next = curr_node
-    node_before_start.next = prev_node
+    sublist_head.next.next = curr_node
+    sublist_head.next = prev_node
 
     return dummy_head.next
 
