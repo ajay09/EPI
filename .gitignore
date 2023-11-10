@@ -41,7 +41,6 @@ enumerate_balanced_parentheses.py
 enumerate_palindromic_decompositions.py
 enumerate_trees.py
 euclidean_gcd.py
-evaluate_rpn.py
 even_odd_array.py
 fibonacci.py
 find_salary_threshold.py
