@@ -1,5 +1,6 @@
 Makefile
 __pycache__/
+venv
 a_b_sqrt2.py
 absent_value_array.py
 adding_credits.py
@@ -32,7 +33,6 @@ deadlock_detection.py
 defective_jugs.py
 delete_from_list.py
 descendant_and_ancestor_in_bst.py
-directory_path_normalization.py
 doubly_list_node.py
 drawing_skyline.py
 dutch_national_flag.py
