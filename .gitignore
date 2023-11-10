@@ -71,7 +71,6 @@ is_string_permutable_to_palindrome.py
 is_tree_a_bst.py
 is_tree_balanced.py
 is_tree_symmetric.py
-is_valid_parenthesization.py
 is_valid_sudoku.py
 k_closest_stars.py
 k_largest_in_heap.py
