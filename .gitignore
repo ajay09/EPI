@@ -136,7 +136,6 @@ pretty_printing.py
 prime_sieve.py
 primitive_divide.py
 primitive_multiply.py
-queue_with_max.py
 random_permutation.py
 random_subset.py
 range_lookup_in_bst.py
