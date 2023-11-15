@@ -15,9 +15,7 @@ def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
 
         return (abs(left_height - right_height) <= 1), max(left_height, right_height) + 1
 
-    a = helper(tree)
-    print(a)
-    return a[0]
+    return helper(tree)[0]
 
 
 
