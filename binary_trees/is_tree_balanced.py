@@ -10,10 +10,8 @@ def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
         is_left_balanced, left_height = helper(node.left)
         is_right_balanced, right_height = helper(node.right)
 
-        if is_left_balanced is False or is_right_balanced is False:
-            return False, max(left_height, right_height) + 1
-
-        return (abs(left_height - right_height) <= 1), max(left_height, right_height) + 1
+        return (is_left_balanced and is_right_balanced and (abs(left_height - right_height) <= 1)), max(left_height,
+                                                                                                        right_height) + 1
 
     return helper(tree)[0]
 
