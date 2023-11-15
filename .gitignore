@@ -68,7 +68,6 @@ is_string_in_matrix.py
 is_string_palindromic.py
 is_string_permutable_to_palindrome.py
 is_tree_a_bst.py
-is_tree_balanced.py
 is_tree_symmetric.py
 is_valid_sudoku.py
 k_closest_stars.py
