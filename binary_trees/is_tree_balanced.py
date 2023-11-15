@@ -3,8 +3,15 @@ from typing import NamedTuple
 from binary_tree_node import BinaryTreeNode
 from test_framework import generic_test
 
+"""
+A binary tree is said to be height-balanced if for each node in the tree, the difference in the height of its left and 
+right subtrees is at most one
+
+Write a program that takes as input the root of a binary tree and checks whether the tree is height- balanced.
+"""
 
 """
+Learning:
 Keep the named tuple definition outside the final function, as keeping inside the function would increase
 the running time.
 If kept inside the Named Tuple class definition will be created everytime the function is called.
