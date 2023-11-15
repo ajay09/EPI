@@ -8,6 +8,11 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 
+"""
+Design an algorithm for computing the LCA of two nodes in a binary tree in which nodes do not have a parent field.
+"""
+
+
 class LCAData(NamedTuple):
     node0: bool
     node1: bool
