@@ -172,7 +172,6 @@ string_transformability.py
 substring_match.py
 successor_in_tree.py
 sudoku_solve.py
-sum_root_to_leaf.py
 swap_bits.py
 task_pairing.py
 test_framework/
