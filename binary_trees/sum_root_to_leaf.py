@@ -15,6 +15,8 @@ Learnings
   expected value. e.g.
         A tree with just one node      ,...........(1).............,
                                        'None                       'None 
+                                       
+- Calling the function on None node should return 0.
         
 """
 
@@ -22,10 +24,10 @@ Learnings
 def sum_root_to_leaf(tree: BinaryTreeNode) -> int:
     def helper(node: BinaryTreeNode, parent_sum) -> int:
         if not node:
-            return parent_sum + 0
+            return 0
         current_sum = node.data + parent_sum * 2
-        # if not node.left and not node.right:
-        #     return current_sum
+        if not node.left and not node.right:
+            return current_sum
         return helper(node.left, current_sum) + helper(node.right, current_sum)
 
     return helper(tree, 0)
