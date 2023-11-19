@@ -178,7 +178,6 @@ tree_exterior.py
 tree_from_preorder_inorder.py
 tree_from_preorder_with_null.py
 tree_right_sibling.py
-tree_with_parent_inorder.py
 two_sorted_arrays_merge.py
 two_sum.py
 uniform_random_number.py
