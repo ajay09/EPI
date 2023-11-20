@@ -5,6 +5,11 @@ from test_framework import generic_test
 
 """
 Learnings:
+
+**** Use different variable names in inner and outer function, as the inner function carries the closure with it
+     Thus has access to all the variables in the outer function. 
+     Accidental use of the outer variables might lead to hard to debug errors!!!
+
 How to improve efficiency when we are creating many sub-lists out of the given lists?
 
 The time for list slicing and index manipulation is almost same.
