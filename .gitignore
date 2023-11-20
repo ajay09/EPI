@@ -173,7 +173,6 @@ swap_bits.py
 task_pairing.py
 test_framework/
 three_sum.py
-tree_connect_leaves.py
 tree_exterior.py
 tree_right_sibling.py
 two_sorted_arrays_merge.py
